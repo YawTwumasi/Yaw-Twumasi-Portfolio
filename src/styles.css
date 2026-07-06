@@ -379,3 +379,43 @@
 ::-webkit-scrollbar-thumb:hover {
   background: var(--color-primary);
 }
+
+/* Secure Certificate Viewer Protection Styles */
+@media print {
+  body, html, #root, .DialogContent, [role="dialog"] {
+    display: none !important;
+    visibility: hidden !important;
+  }
+  * {
+    display: none !important;
+  }
+}
+
+.cert-watermark-overlay {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  user-select: none;
+  z-index: 10;
+  overflow: hidden;
+}
+
+.cert-watermark-text {
+  transform: rotate(-30deg);
+  font-size: 3rem;
+  font-weight: 900;
+  color: rgba(0, 0, 0, 0.08);
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  white-space: nowrap;
+  pointer-events: none;
+  user-select: none;
+}
+
+.dark .cert-watermark-text {
+  color: rgba(255, 255, 255, 0.06);
+}
+
