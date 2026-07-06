@@ -24,13 +24,6 @@ const seed: Cert[] = [
     shortName: "ATHE",
     badge: "Diploma"
   },
-  {
-    id: "cu-dit",
-    title: "Diploma in Information Technology",
-    issuer: "Central University, Ghana",
-    shortName: "CU",
-    badge: "Diploma"
-  },
 ];
 
 export function Certificates() {
