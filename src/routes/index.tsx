@@ -11,7 +11,7 @@ import { Toaster } from "@/components/ui/sonner";
 import { About } from "@/components/portfolio/About";
 import { Skills } from "@/components/portfolio/Skills";
 import { Projects } from "@/components/portfolio/Projects";
-import { Gallery } from "@/components/portfolio/Gallery";
+
 import { Experience } from "@/components/portfolio/Experience";
 import { Certificates } from "@/components/portfolio/Certificates";
 import { Contact } from "@/components/portfolio/Contact";
@@ -36,7 +36,7 @@ function Index() {
           <About />
           <Skills />
           <Projects />
-          <Gallery />
+
           <Experience />
           <Certificates />
           <Contact />

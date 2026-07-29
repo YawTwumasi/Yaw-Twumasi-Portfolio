@@ -31,7 +31,7 @@ const highlights = [
     title: "Clean Code",
     desc: "Reusable, typed React components with meaningful structure.",
   },
-  { icon: Palette, title: "Design Eye", desc: "UI/UX thinking + graphic design fluency." },
+  { icon: Palette, title: "Design Eye", desc: "UI/UX thinking with a sharp eye for clean, intuitive interfaces." },
   { icon: Rocket, title: "Ships Fast", desc: "From wireframe to deployed product with care." },
   {
     icon: Target,
@@ -60,7 +60,7 @@ export function About() {
           <p>
             I'm <span className="font-semibold text-foreground">Yaw Twumasi</span>, a Level 400
             Information Technology student at Central University in Ghana with a strong passion for
-            frontend development, UI/UX design, and graphic design. I specialize in building
+            frontend development and UI/UX design. I specialize in building
             responsive, interactive web apps using React, TypeScript, and Tailwind CSS.
           </p>
           <p>

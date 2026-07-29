@@ -5,7 +5,7 @@ import { profile } from "@/data/portfolio";
 import portrait from "@/assets/hero-portrait.jpg";
 import { FloatingBackground } from "./FloatingBackground";
 
-const roles = ["Frontend Developer", "UI/UX Designer", "Graphic Designer"];
+const roles = ["Frontend Developer", "UI/UX Designer"];
 
 export function Hero() {
   const typed = useTypingCycle(roles);
